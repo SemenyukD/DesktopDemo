@@ -10,7 +10,7 @@ public class ReportCard {
 	
 public static char convertGrade (int testResults) {
 	
-	char grade; // локальна змінна
+	char grade; // Р»РѕРєР°Р»СЊРЅР° Р·РјС–РЅРЅР°
 	
 	if (testResults>=90) {
 	grade = 'A';
@@ -28,13 +28,13 @@ public static char convertGrade (int testResults) {
 	
 	switch (grade){     
 	case 'A':  {      
-	System.out.println("Ваша оцінка " + grade + "\n" + "Чудова робота!");        
+	System.out.println("Р’Р°С€Р° РѕС†С–РЅРєР° " + grade + "\n" + "Р§СѓРґРѕРІР° СЂРѕР±РѕС‚Р°!");        
 	break;     
 	}case 'B': {        
-	System.out.println("Ваша оцінка " + grade + "\n" + "Хороша робота!");        
+	System.out.println("Р’Р°С€Р° РѕС†С–РЅРєР° " + grade + "\n" + "РҐРѕСЂРѕС€Р° СЂРѕР±РѕС‚Р°!");        
 	}break;     
 	case 'C': {       
-	System.out.println("Ваша оцінка " + grade + "\n" + "Потрібно підтягнути знання!");        
+	System.out.println("Р’Р°С€Р° РѕС†С–РЅРєР° " + grade + "\n" + "РџРѕС‚СЂС–Р±РЅРѕ РїС–РґС‚СЏРіРЅСѓС‚Рё Р·РЅР°РЅРЅСЏ!");        
 	break; 
 }
 	}
@@ -49,7 +49,7 @@ public class ReportCard2 {
 	int i;
 	
 	public void Scan() {
-		System.out.println("Введіть Вашу оцінку");
+		System.out.println("Р’РІРµРґС–С‚СЊ Р’Р°С€Сѓ РѕС†С–РЅРєСѓ");
 		Scanner scn = new Scanner (System.in);
 		i = scn.nextInt();
 	}
